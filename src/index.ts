@@ -19,5 +19,5 @@ app.use((req, res, next) => {
 app.use(manejoErrores);    // siempre al final, después de las rutas
 
 app.listen(PORT, () => {
-  console.log(`Servidor corriendo en http://localhost:${PORT}`);
+  console.log(`Servidor corriendo en http://localhost:${PORT}/armas`);
 });
